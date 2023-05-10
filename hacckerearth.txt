@@ -1,0 +1,27 @@
+	System.out.println("Enter the string");
+// 		String str=sc.next();
+        String str="12X345-67";
+		int sum=0;
+		for(int i=0; i<str.length(); i++)
+		{
+		    System.out.println(str.charAt(i));
+		}
+		for(int i=0; i<str.length(); i++)
+		{
+		    for(int j=1; j<str.length(); j++)
+		    {
+		         if(i+j % 2==0 || str.charAt(j)=='a' || str.charAt(j)=='e'|| str.charAt(j)=='i' || str.charAt(j)=='o' || str.charAt(j)=='u')
+		         {
+		             System.out.println("Valid");
+		         }
+		         break;
+		         
+		        
+		    }
+		}
+		System.out.println("Invalid");
+		
+	
+	
+		
+	}
